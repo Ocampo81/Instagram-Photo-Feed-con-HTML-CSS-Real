@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 100vh; /* Utiliza el 100% del alto de la ventana del navegador */
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+}
+
+img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen al ancho de su contenedor */
+    max-height: 100%; /* Ajusta la altura máxima de la imagen al alto de su contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera alrededor de la imagen */
+}
